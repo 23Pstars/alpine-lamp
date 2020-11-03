@@ -2,14 +2,6 @@
 
 Light weight LAMP server.  
 
-## Configuration
-
-Workdir = `/www`  
-PHP Info = `/www/___info.php`  
-DB Name = `db`  
-DB User = `root`  
-DB Pass = ` `
-
 ## Build
 `docker build -t ${USER}/alpine-lamp .`
 
@@ -17,4 +9,4 @@ DB Pass = ` `
 `docker run -i -t -p "8080:80" --name alpine-lamp ${USER}/alpine-lamp`
 
 
-Inspired from [this project](https://hub.docker.com/r/janes/alpine-lamp/dockerfile).
+Inspired from [this project](https://hub.docker.com/r/glats/alpine-lamp).
